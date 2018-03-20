@@ -6,6 +6,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'hdima/python-syntax'
+Plug 'digitaltoad/vim-jade'
+Plug 'shmargum/vim-sass-colors'
+Plug 'pangloss/vim-javascript'
 "Plug 'neomake/neomake'
 "Plug 'pangloss/vim-javascript'
 "Plug 'othree/yajs.vim'
@@ -44,7 +48,10 @@ set mouse=a
 set number
 
 " Set Colorscheme
-colorscheme murphy
+colorscheme Tomorrow-Night
+
+" Marker for max line length
+set colorcolumn=80
 
 " ****************************************
 " KEYBINDINGS 
@@ -119,4 +126,7 @@ let g:comfortable_motion_friction = 0.0
 "let g:airline_powerline_fonts = 1
 
 " vim-airline/vim-airline-thems
-let g:airline_theme='angr'
+let g:airline_theme='bubblegum'
+
+" pangloss/vim-javascript
+let g:javascript_plugin_jsdoc = 1
